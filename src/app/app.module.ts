@@ -21,11 +21,11 @@ import {MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule,
 @NgModule({
   declarations: [
     AppComponent,
+    CollapseDirective,
     GuideComponent,
     BonusComponent,
     ContactComponent,
-    StartComponent,
-    CollapseDirective
+    StartComponent
   ],
   imports: [
     BrowserModule,
